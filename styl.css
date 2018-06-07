@@ -1,0 +1,438 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body
+{
+  	width: 96%;
+  	padding: 1%;
+  	margin:  0 auto;
+	/*background-image: url("tlo.png");*/
+	height: 100%;	
+	font-size: 2vw;
+	font-family: Courier;
+}
+
+.mytext {
+    
+	font-size: 5vw;
+}
+
+/*Panel Logowania*/
+#naglowek
+{
+    opacity: 0.95;
+	width: auto;
+	background-color: #3175d1 ;
+	color: white;
+	font-size: 4vw;
+	padding-bottom: 1%;
+	border:1px #3175d1;
+	border-radius: 5px;
+	text-align: left;
+}
+
+#formularzLogowania
+{
+width: 40%;	
+float: center;
+margin-left:0.1vw;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 2vw;
+ color: #d0cdfa; 
+ text-transform: uppercase;
+ text-align: left;
+ font-weight: bold;
+ 
+} 
+:-ms-input-placeholder { 
+ font-size: 2vw; 
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: bold;
+
+}
+input
+{
+    height: 4.5vw;
+	width: auto;
+}
+button 
+{
+    height: 6vw;
+}
+#zaloguj
+{
+	font-size: 2.5vw;
+}
+#zarejstruj
+{
+	font-size: 2vw;
+	height: 5vw;
+}
+#wprowadzanyText
+{
+	font-size: 2.5vw; 
+	font-weight: bold;
+}
+
+/*Panel Rejstracji*/
+#naglowekRejstracji
+{
+	opacity: 0.95;
+	width: auto;
+	background-color: #001f3f;
+	color: white;
+	font-size: 4vw;
+	padding-bottom: 1%;
+	border:1px #3175d1;
+	border-radius: 5px;
+	text-align: center;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;	
+}
+
+#formularzRejstracji
+{
+width: 50%;	
+float: center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#bledyRejstracji
+{
+	width: 100%;	
+	float: center;
+	margin-left:5%;
+	margin-right:auto;
+	
+}
+
+/*Panel Klienta*/
+
+#powitanieKlienta
+{
+	font-size: 2vw;
+	
+}
+#naglowekPanelKlienta
+{
+	opacity: 0.95;
+	width: auto;
+	background-color: #001f3f;
+	color: white;
+	font-size: 4vw;
+	padding-bottom: 2vw;
+	padding-top: 2vw;
+	border:1px #3175d1;
+	border-radius: 1px;
+	text-align: center;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;	
+	height: 6vw;	
+}
+#powitanieAdmina
+{
+	font-size: 2vw;
+	
+}
+#naglowekPanelAdmina
+{
+	opacity: 0.95;
+	width: auto;
+	background-color: #001f3f;
+	color: white;
+	font-size: 4vw;
+	padding-bottom: 2vw;
+	padding-top: 2vw;
+	border:1px #3175d1;
+	border-radius: 1px;
+	text-align: center;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;	
+	height: 6vw;	
+}
+
+
+
+
+/*Panel Klienta Wolne Pokoje*/
+#wolnePokoje
+{
+	
+}
+/*Przycisk Powrót*/
+#powrot 
+{
+	font-size: 3vw;
+	width: 10vw;
+	font-weight: bold;
+    color: black;
+    border: 5px solid SlateGray  ; /* Green */
+}
+#powrot:hover {
+    background-color: SlateGray  ;
+    color: white;
+}
+/*Przycisk Dodaj*/
+#dodaj
+{
+	position:relative;
+    transition: .5s ease;
+    top: 0%;
+    left: 130%;
+	
+	
+	font-size: 3vw;
+	width: 25vw;
+	font-weight: bold;
+    color: black;
+    border: 5px solid green  ; /* Green */
+}
+#dodaj:hover {
+    background-color: green  ;
+    color: white;
+}
+
+/*Przycisk Zarezerwuj*/
+#zarezerwuj
+{
+	font-size: 2vw;
+	width: auto;
+	font-weight: bold;
+    color: black;
+    border: 2px solid MediumSpringGreen   ; /* Green */
+}
+#zarezerwuj:hover {
+    background-color: MediumSpringGreen   ;
+    color: white;
+}
+
+/*Przycisk Zarezerwuj*/
+#anulujRezerwacje
+{
+	font-size: 1.2vw;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+    color: black;
+    border: 2px solid red   ; /* Green */
+}
+#anulujRezerwacje:hover {
+    background-color: red   ;
+    color: white;
+}
+
+
+
+
+
+/*Tabele z informacjami o wolnych pokojach i usługach*/
+#tabela th
+{
+	font-size: 2.2vh;
+	font-size: 2.2vw;
+	font-weight: bold;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: SteelBlue ;
+    color: white;
+}
+#tabela tr:hover 
+{
+	background-color: #ddd;
+}
+
+#tabela td 
+{
+	padding: 1vw;
+    text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+/*Tabele z informacjami o rezerwacjach*/
+#tabelaRezerwacje th
+{
+	font-size: 2.2vw;
+	font-weight: bold;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Teal  ;
+    color: white;
+}
+#tabelaRezerwacje tr:hover 
+{
+	background-color: #ddd;
+}
+
+#tabelaRezerwacje td 
+{
+	padding: 1vw;
+    text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+/*Tabele z informacjami o rezerwacjach*/
+#tabelaRezerwacjePokoi th
+{
+	font-size: 1.5vw;
+	font-weight: bold;
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Teal  ;
+    color: white;
+}
+#tabelaRezerwacje tr:hover 
+{
+	background-color: #ddd;
+}
+
+#tabelaRezerwacje td 
+{
+	padding: 1.5vw;
+    text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+#tabelaRezerwacje  
+{
+	margin-left: 0%;
+	padding: 1vw;
+    text-align: center;
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+
+
+
+
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Panel Rezerwacji*/
+#naglowekRezerwacji
+{
+	opacity: 0.95;
+	width: auto;
+	background-color: #001f3f;
+	color: white;
+	font-size: 4vw;
+	padding-bottom: 1%;
+	border:1px #3175d1;
+	border-radius: 5px;
+	text-align: center;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 30%;	
+}
+#formularzRezerwacji
+{
+width: 30%;	
+float: center;
+margin-left:auto;
+margin-right:auto;
+}
+
+label 
+{ 
+float: center;
+font-size: 2vw;
+display: block; 
+width: auto; 
+font-weight: bold;
+}
+
+
+
+
+
+
+
+/*Zarzadzaj Przycisk*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 3vw;
+    border: none;
+    cursor: pointer;
+	width: 25vw;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	width: 25vw;
+	font-size: 2.5vw;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
